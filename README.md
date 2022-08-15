@@ -1,3 +1,9 @@
+# Custom Training with YOLOv7 🔥
+
+## Kaggle Notebook link
+- [**🚀Training Yolov7 on Kaggle on Custom Dataset**](https://www.kaggle.com/code/owaiskhan9654/training-yolov7-on-kaggle-on-custom-dataset)
+- [Weight and Biases 🐝](https://wandb.ai/owaiskhan9515/YOLOR)
+
 ## Contact Information
 
 - **Name** - Owais Ahmad
@@ -23,7 +29,7 @@ from IPython.display import Markdown, display
 display(Markdown("../input/Car-Person-v2-Roboflow/README.roboflow.txt"))
 ```
 
-# Custom Training with YOLOv7
+# Custom Training with YOLOv7 🔥
 
 In this Notebook, I have processed the images with RoboFlow because in COCO formatted dataset was having different dimensions of image and Also data set was not splitted into different Format.
 To train a custom YOLOv7 model we need to recognize the objects in the dataset. To do so I have taken the following steps:
@@ -92,7 +98,7 @@ except:
     
     
     
-wandb.init(project="YOLOv7-Car-Person-Custom",name=f"4. YOLOv7-Car-Person-Custom-Run-4")
+wandb.init(project="YOLOvR",name=f"7. YOLOv7-Car-Person-Custom-Run-7")
 ```
 
 # Step 2: Assemble Our Dataset
