@@ -1,10 +1,13 @@
 # Custom Training with YOLOv7 🔥
 
-## Kaggle Notebook link
-- [**🚀Training Yolov7 on Kaggle on Custom Dataset**](https://www.kaggle.com/code/owaiskhan9654/training-yolov7-on-kaggle-on-custom-dataset)
+## Some Important links
+- [Model Inference🤖](https://huggingface.co/spaces/owaiskha9654/Custom_Yolov7)
+- [**🚀Training Yolov7 on Kaggle**](https://www.kaggle.com/code/owaiskhan9654/training-yolov7-on-kaggle-on-custom-dataset)
 - [Weight and Biases 🐝](https://wandb.ai/owaiskhan9515/YOLOR)
-- [HuggingFace 🤗 Model for Inference](https://huggingface.co/owaiskha9654/Yolov7_Custom_Object_Detection)
+- [HuggingFace 🤗 Model Repo](https://huggingface.co/owaiskha9654/Yolov7_Custom_Object_Detection)
+
 ## Contact Information
+
 
 - **Name** - Owais Ahmad
 - **Phone** - +91-9515884381
