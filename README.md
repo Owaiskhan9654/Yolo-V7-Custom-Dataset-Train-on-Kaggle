@@ -44,11 +44,11 @@ To train a custom YOLOv7 model we need to recognize the objects in the dataset. 
 
 
 # 📦 [YOLOv7](https://github.com/WongKinYiu/yolov7)
-<div align=center><img src="https://raw.githubusercontent.com/Owaiskhan9654/Yolo-V7-Custom-Dataset-Train-on-Kaggle/main/car-person-2.PNG" width=800>
-    
-    
-**Image Credit** -  [jinfagang](https://github.com/jinfagang/yolov7)
+<div align=left><img src="https://raw.githubusercontent.com/WongKinYiu/yolov7/main/figure/performance.png" width=800>
 
+    
+**Image Credit** -  [WongKinYiu](https://github.com/WongKinYiu/yolov7)
+</div>
 # Step 1: Install Requirements
 
 
@@ -57,6 +57,7 @@ To train a custom YOLOv7 model we need to recognize the objects in the dataset. 
 %cd yolov7
 !pip install -qr requirements.txt
 !pip install -q roboflow
+
 ```
 
 # **Downloading YOLOV7 starting checkpoint**
@@ -101,7 +102,7 @@ except:
     
     
     
-wandb.init(project="YOLOvR",name=f"7. YOLOv7-Car-Person-Custom-Run-7")
+wandb.init(project="YOLOv7",name=f"7. YOLOv7-Car-Person-Custom-Run-7")
 ```
 
 # Step 2: Assemble Our Dataset
@@ -117,11 +118,19 @@ In Roboflow, We can choose between two paths:
 * Uploading only these raw images and annotate them in Roboflow with [Roboflow Annotate](https://docs.roboflow.com/annotate).
 
 
-# Version v2 Aug 12, 2022 Looks like this.
 
-![](https://raw.githubusercontent.com/Owaiskhan9654/Yolo-V7-Custom-Dataset-Train-on-Kaggle/main/Roboflow.PNG)
+# Version v7 Jan 30, 2023 Looks like this.
+
+![](https://raw.githubusercontent.com/Owaiskhan9654/Yolo-V7-Custom-Dataset-Train-on-Kaggle/main/Roboflow_train1.JPG)
 
 
+### Since paid credits are required to train the model on RoboFlow I have used Kaggle Free resources to train it here 
+
+
+
+### Note you can import any other data from other sources. Just remember to keep in the Yolov7 Pytorch form accept
+
+![](https://raw.githubusercontent.com/Owaiskhan9654/Yolo-V7-Custom-Dataset-Train-on-Kaggle/main/Yolov7%20Pytorch%20format.JPG)
 
 ```python
 user_secrets = UserSecretsClient()
